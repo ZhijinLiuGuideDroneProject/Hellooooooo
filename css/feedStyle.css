@@ -1,0 +1,204 @@
+#statusBorder{
+	background-color: rgba(255, 255, 255, 0.5);
+	border: 2px solid rgba(0,0,0,0.1);
+	width:500px;
+	border-radius: 10px;
+	margin-left: 35%;
+}
+
+#comment input, #comment textarea {
+	border: 4px solid rgba(0,0,0,0.1);
+	padding: 8px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	outline: 0;
+}
+
+#comment textarea {
+	z-index: 999;
+	width: 400px;
+	height:100px;
+	margin-left: 45px;
+	margin-top: 10px;
+}
+
+#comment input[type="submit"] {
+	margin-top: 10px;
+	margin-left: 350px;
+	margin-bottom: 10px;
+	cursor: pointer;
+	background: -webkit-linear-gradient(top, #efefef, #ddd);
+	background: -moz-linear-gradient(top, #efefef, #ddd);
+	background: -ms-linear-gradient(top, #efefef, #ddd);
+	background: -o-linear-gradient(top, #efefef, #ddd);
+	background: linear-gradient(top, #efefef, #ddd);
+	color: #333;
+	text-shadow: 0px 1px 1px rgba(255,255,255,1);
+	border: 1px solid #ccc;
+}
+
+#comment input[type="submit"]:hover {
+	margin-top: 10px;
+	margin-left: 350px;
+	margin-bottom: 10px;
+	background: -webkit-linear-gradient(top, #eee, #ccc);
+	background: -moz-linear-gradient(top, #eee, #ccc);
+	background: -ms-linear-gradient(top, #eee, #ccc);
+	background: -o-linear-gradient(top, #eee, #ccc);
+	background: linear-gradient(top, #eee, #ccc);
+	border: 1px solid #bbb;
+}
+
+#comment input[type="submit"]:active {
+	margin-top: 10px;
+	margin-left: 350px;
+	margin-bottom: 10px;
+	background: -webkit-linear-gradient(top, #ddd, #aaa);
+	background: -moz-linear-gradient(top, #ddd, #aaa);
+	background: -ms-linear-gradient(top, #ddd, #aaa);
+	background: -o-linear-gradient(top, #ddd, #aaa);
+	background: linear-gradient(top, #ddd, #aaa);	
+	border: 1px solid #999;
+}
+
+.file{
+	position:relative;
+	overflow: hidden;
+	margin-top: 0px;
+}
+
+.file input.upload {
+	position: absolute;
+	top:0;
+	right:0;
+	margin:0;
+	padding:0;
+	font-size: 20px;
+	cursor:pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.file span{
+	margin-left: 420px;
+}
+
+.homeFeed #newsFeedBlock{
+	position: absolute;
+	border: 2px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0.5);
+	width:500px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+.homeFeed #newsFeedBlock:hover{
+	position: absolute;
+	border: 2px solid rgba(91,160,214,1);
+	background-color: rgba(255, 255, 255, 0.5);
+	width:500px;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+
+.homeFeed .user_photo{
+	width:20%;
+	text-align: -webkit-right;
+	float: left;
+	margin-top: 14px;
+}
+
+.homeFeed .post_detail{
+	width:80%;
+}
+.homeFeed .user_name{
+	float:left;
+	margin-top: 10px;
+	margin-left: 31px;
+}
+
+.homeFeed .post_photo{
+	margin-top: 10px;
+	margin-left: -40px;
+	text-align: -webkit-center;
+}
+
+.homeFeed .post_comment{
+	margin-top: 10px;
+	text-align: -webkit-center;
+}
+
+.homeFeed .post_time{
+	width: 140px;
+	margin-top: 10px;
+	margin-left: 304px;
+	color: gray;
+	opacity: 0.5;
+}
+
+.homeFeed .photoCommentBorder{
+	width:300px;
+	border: 2px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin-left: 90px;
+}
+
+.userProfile #newsFeedBlock{
+	position: absolute;
+	border: 2px solid rgba(255, 255, 255, 0);
+	background-color: rgba(255, 255, 255, 0.5);
+	width:500px;
+	margin-top: 30px;
+	border-radius: 5px;
+}
+
+.userProfile #newsFeedBlock:hover{
+	position: absolute;
+	border: 2px solid rgba(91,160,214,1);
+	background-color: rgba(255, 255, 255, 0.5);
+	width:500px;
+	margin-top: 30px;
+	border-radius: 15px;
+}
+
+.userProfile .user_photo{
+	width:20%;
+	text-align: -webkit-right;
+	float: left;
+	margin-top: 14px;
+}
+
+.userProfile .post_detail{
+	width:80%;
+}
+.userProfile .user_name{
+	float:left;
+	margin-top: 10px;
+	margin-left: 31px;
+}
+
+.userProfile .post_photo{
+	margin-top: 10px;
+	text-align: -webkit-center;
+}
+
+.userProfile .post_comment{
+	margin-top: 10px;
+	text-align: -webkit-center;
+}
+
+.userProfile .post_time{
+	width: 140px;
+	margin-top: 10px;
+	margin-left: 304px;
+	color: gray;
+	opacity: 0.5;
+}
+
+.userProfile .photoCommentBorder{
+	width:300px;
+	border: 2px solid rgba(0,0,0,0.1);
+	border-radius: 5px;
+	margin-left: 90px;
+}

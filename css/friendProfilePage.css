@@ -1,0 +1,52 @@
+body {
+  padding-top: 60px;
+}
+
+table, tr {
+  /*border: 1px solid black;*/
+  width: 100%;
+
+}
+
+#maincontainer {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#contentwrapper {
+
+  float: left;
+  width: 100%;
+}
+
+#contentcolumn {
+  margin-left: 30%;
+  position: float;
+  
+}
+
+#column-scroll {
+}
+
+/**/
+#leftcolumn {
+  float: left;
+
+  overflow: auto;
+  width: 30%;
+  /*border: 1px solid black;
+  margin-left: -100%;*/
+  /*background: #C8FC98;*/
+}
+
+#leftcolumn-text {
+
+}
+
+#username {
+}
+
+.innertube {
+  margin: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
